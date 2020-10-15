@@ -15,5 +15,113 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Mentoring',
+      meta: [
+        {
+          charset: 'utf-8',
+        },
+        {
+          hid: 'title',
+          name: 'title',
+          content: 'Mentoring',
+        },
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Mentoring',
+        },
+        {
+          hid: 'og:type',
+          property: 'og:type',
+          content: 'website',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'Mentoring',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Mentoring es un programa educativo estratégico de la Dirección de Política Educativa y Liderazgo Social de EDUCAFIN',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: '', // the size has to be more 200px at least
+        },
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: `www.mentoring-gto.mx${this.$route.path}`,
+        },
+        {
+          hid: 'og:site_name',
+          property: 'og:site_name',
+          content: `www.mentoring-gto.mx`,
+        },
+        {
+          hid: 'og:locale',
+          property: 'og:locale',
+          content: `es`,
+        },
+        {
+          hid: 'og:image:type',
+          property: 'og:image:type',
+          content: 'image/jpeg',
+        },
+        {
+          hid: 'twitter:card',
+          property: 'twitter:card',
+          content: '',
+        },
+        {
+          hid: 'twitter:site',
+          property: 'twitter:site',
+          content: `www.mentoring-gto.mx`,
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'Mentoring',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content:
+            'Mentoring es un programa educativo estratégico de la Dirección de Política Educativa y Liderazgo Social de EDUCAFIN',
+        },
+        {
+          hid: 'twitter:creator',
+          property: 'twitter:creator',
+          content: 'www.mentoring-gto.mx',
+        },
+        {
+          hid: 'twitter:image:src',
+          property: 'twitter:image:src',
+          content: '',
+        },
+        {
+          hid: 'twitter:domain',
+          property: 'twitter:domain',
+          content: 'www.mentoring-gto.mx',
+        },
+        {
+          hid: 'twitter:image',
+          name: 'twitter:image',
+          content: '',
+        },
+        {
+          hid: 'twitter:url',
+          name: 'twitter:url',
+          content: `www.mentoring-gto.mx${this.$route.path}`,
+        },
+      ],
+    }
+  },
+}
 </script>

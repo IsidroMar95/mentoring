@@ -1,0 +1,70 @@
+.base-button {
+  @apply flex items-center justify-center font-medium rounded outline-none transition duration-500 ease-in-out;
+
+  &--sm {
+    @apply px-4 py-2 text-sm;
+  }
+
+  &--md {
+    @apply px-5 py-2 text-base;
+  }
+
+  &--primary {
+    @apply bg-primary text-white;
+
+    &:hover {
+      background-color: #74ad24;
+    }
+  }
+
+  &--secondary {
+    @apply bg-secondary text-white;
+
+    &:hover {
+      @apply bg-white text-secondary border-white;
+    }
+  }
+
+  &--outline {
+    @apply bg-white text-darkGray-100 border border-darkGray-100;
+
+    &:hover {
+      @apply bg-secondary text-white border-secondary;
+    }
+  }
+
+  &:focus {
+    @apply outline-none;
+  }
+
+  &:hover {
+    @apply outline-none;
+  }
+
+}
+
+
+@screen full{
+  .base-button {
+    &--sm {
+      @apply px-5 py-2 text-base;
+    }
+
+    &--md {
+      @apply px-6 py-2 text-lg;
+    }
+  }
+}
+
+
+@screen 4k{
+  .base-button {
+    &--sm {
+      @apply px-6 py-2 text-lg;
+    }
+
+    &--md {
+      @apply px-8 py-2 text-xl;
+    }
+  }
+}

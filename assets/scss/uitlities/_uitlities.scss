@@ -1,0 +1,13 @@
+hr {
+  width: 280px;
+  margin: auto;
+  border-top-width: 3px;
+  border-color: rgba(97, 97, 97, 0.28);
+}
+
+@screen xs {
+  hr {
+    width: 500px;
+  }
+}
+@import 'animation';

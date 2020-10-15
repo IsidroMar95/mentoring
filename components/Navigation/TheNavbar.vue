@@ -4,7 +4,7 @@
       <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
         <div class="flex items-center justify-between w-full md:w-auto">
           <nuxt-link to="/">
-            <Logo />
+            <img class="w-auto h-12" src="@/assets/images/logo_wtext.svg" alt="Logo Mentoring">
           </nuxt-link>
           <div class="flex items-center -mr-2 md:hidden">
             <button @click="toggleNavbar" type="button" class="inline-flex items-center justify-center p-2 transition duration-150 ease-in-out rounded-md text-secondary-500 hover:text-secondary-500 hover:bg-secondary-100 focus:outline-none focus:bg-secondary-100 focus:text-secondary-500">
@@ -42,7 +42,7 @@
           <div class="overflow-hidden bg-white rounded-lg shadow-xs">
             <div class="flex items-center justify-between px-5 pt-4">
               <nuxt-link to="/" @click.native="toggleNavbar">
-                <Logo />
+            <img class="w-auto h-10" src="@/assets/images/logo.svg" alt="Logo Mentoring">
               </nuxt-link>
               <div class="-mr-2">
                 <button @click="toggleNavbar" type="button" class="inline-flex items-center justify-center p-2 transition duration-150 ease-in-out rounded-md text-secondary-500 hover:text-secondary-500 hover:bg-secondary-100 focus:outline-none focus:bg-secondary-100 focus:text-secondary-500">

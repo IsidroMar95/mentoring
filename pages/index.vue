@@ -1,8 +1,8 @@
 <template>
   <div class="flex flex-col space-y-16 pb-10">
     <div class="relative">
-      <div class="px-6 lg:px-8">
-        <div class="relative shadow-xl rounded xs:rounded-xl xs:overflow-hidden">
+      <div class="xs:px-6 lg:px-8">
+        <div class="relative shadow-xl rounded-xl xs:overflow-hidden">
           <div class="absolute inset-0">
             <img class="h-full w-full object-cover" src="@/static/images/hero-index.jpg" alt="People working on laptops">
             <div class="absolute inset-0 bg-gray-100" style="mix-blend-mode: multiply;" />

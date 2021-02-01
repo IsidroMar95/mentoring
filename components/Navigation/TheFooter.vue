@@ -43,14 +43,11 @@
       </p>
     </div>
   </footer>
-
 </template>
 
 <script>
 export default {
-  name: 'TheFooter',
+  name: 'TheFooter'
 
-
-  
 }
 </script>

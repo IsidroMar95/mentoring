@@ -55,5 +55,9 @@ export default {
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
+  build: {},
+
+  router: {
+    linkActiveClass: 'text-secondary-500 hover:text-secondary-600'
+  }
 }

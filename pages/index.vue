@@ -17,15 +17,10 @@
               sociales y profesionales de jóvenes estudiantes de nivel medio superior de Guanajuato, a través de
               la metodología inspiring change.
             </p>
-            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-secondary-700 bg-white hover:bg-secondary-50 sm:px-8">
-                  Ver más
-                </a>
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary-500 sm:px-8">
-                  Ver más
-                </a>
-              </div>
+            <div class="flex items-start mt-5">
+              <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-secondary-500 sm:px-8">
+                Ver más
+              </a>
             </div>
           </div>
         </div>
@@ -40,15 +35,15 @@
       </p>
     </div>
     <div class="relative bg-white px-6 lg:px-8">
-      <div class="h-56 bg-primary-600 sm:h-72 lg:absolute lg:h-full lg:w-1/2">
-        <img class="w-full h-full object-cover" src="@/static/images/hero02-index.jpg" alt="Support team">
+      <div class="h-56 bg-primary-600 sm:h-72 lg:absolute lg:h-full lg:w-1/2 bg-white">
+        <img class="w-full h-full object-cover shadow-xl rounded-xl bg-white" src="@/static/images/hero02-index.jpg" alt="Support team">
       </div>
       <div class="max-w-2xl mx-auto lg:max-w-none lg:mr-0 lg:ml-auto lg:w-1/2 lg:pl-10">
         <div class="lg:pl-6 flex flex-col">
           <h2 class="mt-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Nuestro propósito
           </h2>
-          <p class="mt-6 text-lg text-gray-500">
+          <p class="mt-6 text-lg text-gray-600">
             Contribuir a la permanencia y transición educativa de jóvenes
             guanajuatenses estudiantes de Nivel Medio Superior (NMS)
             a través de un modelo de mentoría cuyos componentes
@@ -58,7 +53,7 @@
           <div class="mt-8 overflow-hidden">
             <dl class="-mx-8 -mt-8 flex flex-wrap">
               <div class="flex flex-col px-8 pt-8">
-                <dt class="order-2 text-base font-medium text-gray-500">
+                <dt class="order-2 text-base font-medium text-gray-600">
                   Administrativos
                 </dt>
                 <dd class="order-1 text-2xl font-extrabold text-primary-600 sm:text-3xl">
@@ -66,7 +61,7 @@
                 </dd>
               </div>
               <div class="flex flex-col px-8 pt-8">
-                <dt class="order-2 text-base font-medium text-gray-500">
+                <dt class="order-2 text-base font-medium text-gray-600">
                   Mentores
                 </dt>
                 <dd class="order-1 text-2xl font-extrabold text-primary-600 sm:text-3xl">
@@ -74,7 +69,7 @@
                 </dd>
               </div>
               <div class="flex flex-col px-8 pt-8">
-                <dt class="order-2 text-base font-medium text-gray-500">
+                <dt class="order-2 text-base font-medium text-gray-600">
                   Mentorados
                 </dt>
                 <dd class="order-1 text-2xl font-extrabold text-primary-600 sm:text-3xl">
